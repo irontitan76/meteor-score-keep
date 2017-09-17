@@ -24,9 +24,10 @@ export default class AddPlayer extends Component {
     return (
       <div className='item'>
         <form className='form' onSubmit={this.handleSubmit}>
-          <input type='text' name='playerName' placeholder='Player name' />
+          <input className='form__input' type='text' name='playerName' placeholder='Player name' />
           <button className='button'>Add player</button>
         </form>
+        {this.props.children}
       </div>
     );
   }

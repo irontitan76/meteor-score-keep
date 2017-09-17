@@ -1,6 +1,7 @@
 @import './components/button';
 @import './components/form';
 @import './components/item';
+@import './components/player';
 @import './components/title-bar';
 @import './components/wrapper';
 
@@ -18,6 +19,10 @@ body {
   color: #555;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.3rem;
 }
 
 h1 {
